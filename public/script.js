@@ -1,4 +1,4 @@
-const socket = io(); // Connect to the WebSocket server
+const socket = io('https://twitterclone-uxyo.onrender.com'); // Connect to the WebSocket server
 
 // Handle tweet posting
 document.getElementById('postTweet').addEventListener('click', () => {
