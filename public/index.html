@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Twitter Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Mini Twitter</h1>
+    <textarea id="tweetInput" placeholder="What's happening?" rows="3"></textarea>
+    <button id="postTweet">Tweet</button>
+    <div id="tweets">
+      <h2>Tweets</h2>
+      <div id="tweetList"></div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
